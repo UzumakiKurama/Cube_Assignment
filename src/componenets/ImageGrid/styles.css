@@ -1,0 +1,21 @@
+.imageGrid_container {
+    align-self: center;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageGrid_imageWrapper {
+    flex: 1 1 29%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.imageGrid_imageWrapper > img {
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px rgba(116, 114, 114, 0.906);
+}

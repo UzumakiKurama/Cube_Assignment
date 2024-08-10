@@ -1,0 +1,20 @@
+.customerCard {
+    padding: 20px;
+    border-bottom: 1px solid #bfbfbf;
+    font-family: "Merriweather-regular";
+}
+
+.customerCard:hover {
+    cursor: pointer;
+    background-color: #cccccc ;
+}
+
+.customerCard--header{
+    margin-bottom: 15px;
+}
+
+.customerCard--details{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}

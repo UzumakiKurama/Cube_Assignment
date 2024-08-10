@@ -1,0 +1,17 @@
+.header_title{
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
+
+@media (min-width : 1024px){
+    main {
+        margin: 0 5rem;
+    }
+}
+
+@media (min-width : 1280px) {
+    main {
+        margin : 0 10rem;
+    }
+}

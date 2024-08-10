@@ -1,0 +1,81 @@
+.dashboard_container {
+    display: flex;
+    margin-top: 2rem;
+    border-radius: 10px;
+    height: 88vh;
+    box-shadow: 4px 4px 10px #cccccc;
+}
+
+.dashboard_customerList {
+    flex: 1 1 30%;
+    height: 88vh;
+    overflow-y: scroll;
+}
+
+.dashboard_customerList::-webkit-scrollbar {
+    display: none;
+}
+
+.dashboard_customerDetails {
+    flex: 1 1 70%;
+    padding: 0 40px;
+    width: 100%;
+    background-color: #f2f2f2;
+    overflow-y: scroll;
+}
+
+.dashboard_customerDetails::-webkit-scrollbar {
+    display: none;
+}
+
+.dashboard_customerDetails--container{
+    display: flex;
+    flex-direction: column;
+    font-family: "Merriweather-regular";
+}
+
+.dashboard_customerDetails--header {
+    display: flex;
+    text-align: center;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dashboard_customerDetails--header > div > div {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-family: "Merriweather-regular";
+    font-weight: bold;
+}
+
+.dashboard_customerDetails--details {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard_customerDetails--personalInfo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 18px;
+    width: 100%;
+}
+
+.dashboard_customerDetails--personalInfo > span {
+    flex-grow: 1;
+    width: 30%;
+    padding: 5px;
+    text-align: center;
+}
+
+.dashboard_customerDetails--address{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
